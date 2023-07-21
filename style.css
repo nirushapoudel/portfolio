@@ -1,0 +1,102 @@
+*{
+    margin: 8px;
+    padding: 10 ;
+}
+html {
+    padding: none;
+}
+
+.nav ul{
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid purple;
+
+}
+.nav a{
+    color: teal;
+}
+.nav a :hover{
+    background-color:black;
+}
+.jumbotron img {
+    height: 30vw;
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 2s ease-out;
+}
+.jumbotron img:hover {
+    border-radius: 0%;
+}
+iframe {
+    margin: 10%;
+}
+footer 
+{
+    background-color: aqua;
+    width: 100%;
+    margin: 0;
+    padding: none;
+
+}
+
+footer h3 {
+    padding:none;
+    margin: none;
+}
+
+.container .jumbotron{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(74, 74, 26);
+    transition: 2s;
+}
+.container .jumbotron:hover{
+    background-color: green;
+
+}
+.container .jumbotron:active
+{
+    transition: 0s;
+    background-color: rgb(12, 33, 26);
+    
+}
+.buttons{
+
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+
+ }   
+ a{
+
+    color: white;
+ }
+@media screen and (min-width : 600px) {
+    .nav li{
+        width: 120px; 
+    }
+    } 
+@media screen and (max-width:600px) {
+    a {
+        font-size: 0.5em;
+    }
+
+}
+ small{
+    margin: none;
+ }
